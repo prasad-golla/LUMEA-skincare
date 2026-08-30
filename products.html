@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shop — LUMÉA</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+
+        <div class="logo">
+            LUMÉA
+        </div>
+
+        <button class="menu-btn" id="menu-btn">
+    ☰
+</button>
+
+<nav id="nav-menu">
+    <a href="index.html">Home</a>
+    <a href="products.html">Shop</a>
+    <a href="about.html">About</a>
+    <a href="cart.html">
+        Cart 🛒 <span id="cart-count">0</span>
+    </a>
+</nav>
+
+    </header>
+
+
+    <!-- Shop Header -->
+    <section class="shop-header">
+
+        <p class="small-text">THE COLLECTION</p>
+
+        <h1>Find your ritual.</h1>
+
+        <p>
+            Simple, thoughtful skincare essentials
+            for your everyday routine.
+        </p>
+
+    </section>
+
+
+    <!-- Filters -->
+    <section class="shop-section">
+
+        <div class="filters">
+
+            <button class="filter-btn active" data-category="all">
+                All
+            </button>
+
+            <button class="filter-btn" data-category="cleanser">
+                Cleansers
+            </button>
+
+            <button class="filter-btn" data-category="serum">
+                Serums
+            </button>
+
+            <button class="filter-btn" data-category="moisturizer">
+                Moisturizers
+            </button>
+
+            <button class="filter-btn" data-category="sunscreen">
+                Sunscreen
+            </button>
+
+        </div>
+
+
+        <!-- Products will appear here -->
+        <div id="product-container" class="product-grid">
+
+        </div>
+
+    </section>
+
+
+    <script src="js/products.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/products-page.js"></script>
+<script src="js/main.js"></script>
+    
+
+</body>
+
+</html>
